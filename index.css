@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    background: #1B244A
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.titleHome, .titleGuest {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 36px;
+    text-align: center;
+    color: #EEEEEE;
+}
+
+.homeBox, .guestBox {
+    border: none;
+    max-width: 400px;
+    height: 120px;
+    fill: solid;
+    background: #000001;
+    border-radius: 5px;
+    margin-top: -10px;
+}
+
+.homeButtons, .guestButtons {
+    width: 155px;
+    height: 45px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: -58px;   
+}
+
+button {
+    border-color: #9aabd8;
+    border-radius: 5px;
+    background: transparent;
+    color: #9aabd8;
+    font-size: 18px;
+    margin-left: 7px;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+}
+
+p {
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    color: #f94f6d;
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+    font-size: 90px;
+    padding-top: 18px;
+    
+}
